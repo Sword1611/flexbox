@@ -43,3 +43,31 @@
   display: flex;
   justify-content: space-between;
 }
+
+/* Container ng photo grid, or Flex container*/
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  background-color: #5995da;
+  /* outline: 5px solid blue; */
+}
+/* Container ng mga image. 
+    Flex container nested
+*/
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* outline: 5px solid red; */
+}
+
+/* Ito yung item or yung pictures ay nandito. 
+    AKA Flex items
+*/
+.photo-grid-item {
+  border: 1px solid #fff;
+  width: 300px;
+  height: 300px;
+  /* outline: 5px solid green; */
+}
