@@ -136,9 +136,9 @@
 /* Auto-margins in flexbox are special. 
 They can be used as an alternative to an extra <div> when trying to align a group of items to the left/right of a container. 
 Think of auto-margins as a “divider” for flex items in the same container.*/
-.signup {
-  /* margin: 0 0 0 auto; */
-}
+/* .signup {
+  margin: 0 0 0 auto;
+} */
 /* Same lang ng epekto HAHA */
 .date {
   margin-right: auto;
